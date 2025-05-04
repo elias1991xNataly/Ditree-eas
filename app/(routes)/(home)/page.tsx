@@ -2,6 +2,7 @@
 //import { Button } from "@/components/ui/button";
 
 import { TreePalm } from "lucide-react";
+import LinkProfile from "./components/LinkProfile/LinkProfile";
 
 //import { toast } from "sonner";
 export default function HomePage() {
@@ -11,8 +12,7 @@ export default function HomePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-[60%_auto] gap-4 px-4">
                 <div>
-                    {/* Link Profile */}
-                    <p>Link Profile ...</p>
+                    <LinkProfile />
                     <div>
                         {/* Profile Info */}
                         <div>
